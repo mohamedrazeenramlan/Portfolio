@@ -1,0 +1,141 @@
+
+
+===== PAGE 1 =====
+MOHAMED RAZEEN RAMLAN
+MECHATRONICS ENGINEER
+1. SUMMARY 
+2.PRODUCTS AND TECHNOLOGY
+Research & Development Engineer | Technical & Operaonal Contribuons
+Phone  :       +971 503903358
+Linkedin  :       linkedin.com/in/mohamed-razeen-r/
+Mail     :       razinrazin57@gmail.com
+Mail     :       razinrazin57@gmail.com
+Educaon   - 
+Bechelor of Engineering in Mechatronics (2018-
+2022) 
+CGPA - 8.6/10 (Anna University/Bannari Amman 
+Instute of Technology)
+Entrepneurship Program -12 Months  - IIMB
+This document summarizes the key products, technologies, personal projects, technical contribuons, and achievements 
+of Mohamed Razeen Ramlan in the development of industrial air polluon control systems, automated environmental 
+control pla<orms, and related electromechanical and intelligent systems.
+2.1 G1S Mark II – Zig-Zag Wet Scrubber (Flagship Product)
+An industrial-grade emission control system that uses a patented zig-zag airflow chamber to capture parculate ma?er 
+and pollutants at the source. The system is equipped with air quality monitoring sensors and supports Industry 4.0 
+principles by applying machine learning to air quality data. This enables predicve maintenance alerts and automated 
+polluon reporng to support industrial sustainability goals.
+The zig-zag wet scrubbing chamber was designed and developed for high parculate capture efficiency under real 
+industrial operang condions. A full-scale 4,000 CFM unit was fabricated and delivered to a ferrous foundry client, 
+including integraon of a custom electrical control panel. NABL-accredited tesng validated removal efficiencies of 
+99.74% for PM2.5 and 99.84% for PM10. The system incorporates IoT-enabled monitoring and closed-loop control logic 
+in which air quality sensor data adjusts Variable Frequency Drive (VFD) speed in real me.
+
+
+===== PAGE 2 =====
+Key Performance Parameters:
+•  Parculate removal: up to 99% (PM2.5)  |  NABL validated: 99.74% PM2.5 and 99.84% PM10
+•  Achievable Flow Rates: 1500 – 4500 CFM
+•  Blower Capacity: 10 – 50 HP
+•  Total Pressure Drop: ~2000 Pa
+•  Efficiency of Controlling Pollutants: 96% – 98%x
+•  Features: Low maintenance, resistance to clogging, connuous operaon, IoT-enabled monitoring
+2.2 Tubular Photobioreactor (PBR) and Environment Simulang Automated Culture Rack
+A downstream carbon management module that uses high-density microalgae culture to biologically capture residual 
+CO₂ from treated exhaust streams and convert it into harvestable biomass. To support producon and experimentaon, 
+an automated culture rack system was developed in which the environmental condions of each rack can be 
+independently simulated and controlled according to algae growth requirements.
+The system employs color detecon based on microalgae color intensity and opacity. Using this visual feedback, the rack 
+automacally adjusts light intensity, temperature, nutrient supply, and airflow. Operaon is managed by a combined 
+Raspberry Pi and ESP32 architecture: the Raspberry Pi analyzes images of the microalgae culture and determines opmal 
+set-points, which are wri?en to Firebase. The ESP32 retrieves these values and executes the corresponding control 
+acons. For experimental purposes, the Raspberry Pi can also apply parameter combinaons designed to accelerate 
+growth, aMer which resulng growth metrics are calculated and reported.
+Key Performance Parameters:
+•  High-efficiency conversion of industrial CO₂ into oxygen via photosynthesis
+•  Produces harvestable algae biomass suitable for biofuels, animal feed, or ferlizers
+•  Biomass Producvity: 0.5 – 1.2 g/L/day
+•  Tube Diameter: Standard 4-inch (100 mm)
+•  Can be integrated downstream of the Zig-Zag Chamber for a complete clean-air soluon
+
+
+===== PAGE 3 =====
+2.3 Laboratory Gas Analyzer
+Developed the exisng air quality monitoring sensors into a laboratory-grade gas analyzer. The system integrates 
+parculate ma?er (PM) sensors, flue gas sensors, and volale organic compound (VOC) sensors into a single laboratory 
+kit. It is designed to analyze nanomaterials by determining which gases they absorb and by quanfying the efficiency of 
+gas absorpon.
+Key Parameters:
+
+Integrated sensors: PM, CO2, CO, NOx, SOx, NH3 and VOC
+
+Applicaon: Characterizaon of gas absorpon performance of nanomaterials
+
+Used by : Research Scienst, Lab Workers, Clean Room etc..
+Consultancy Products
+
+Banana Fibre SoMening Chamber in Built with IOT and App Interface
+
+Designed and Manufactured various Pharmaceucal Instruments.
+
+Image Processing for Parking lot vehicle monitoring.
+
+15 Point Calibraon Ph Meter integrated with IOT.
+
+
+===== PAGE 4 =====
+3.PERSONAL PROJECTS
+4.CORE WORKS AND SKILLS
+Controlling an Arculated Robot with Moon Detecon (MediaPipe)
+Developed a roboc moon system that translates real-me human arm movement into robot joint commands. The 
+system was conceived to reduce manual effort and operator error in heavy machinery applicaons. A MediaPipe-based 
+program processes webcam video to detect and track shoulder, elbow, and wrist movements, converng these into axis 
+values. The moon data can be ported to Unreal Engine for simulaon or to a physical arculated robot for real-world 
+control.
+•  Intended to reduce manual error during crane and heavy machinery operaon
+•  Target pla<orm: Delta Arculated Robot DRV70L
+•  Input: 720p webcam
+•  Compung pla<orm: Raspberry Pi
+•  Supports both simulaon (Unreal Engine) and physical robot deployment
+Key Responsibilies:
+• 
+Maintaining Day-to-day operaons and concurrent engineering project coordinaon.
+• 
+IOT and Embedded system designing and UI/UX planning.
+• 
+Handling the Rapid Protyping and 3D prinng Parts.
+• 
+Troubleshoot and Problem solving Lead.
+• 
+Maintaing consumable, Part Library and Tools.
+• 
+Electromechanical design, system integraon, and prototype development
+• 
+Client interacon, technical presentaons, and grant documentaon.
+• 
+Creang demonstraon and Simulaon in Unreal Engine, Blender and Solidworks
+• 
+Mul-disciplinary team leadership (mechanical, embedded systems, CAD, microbiology and 
+Nanobiotechnology)
+Patent
+Automated Industrial Air Polluon Control System – Patent No. 427494 (Granted)
+So;ware SKill
+ 
+ Unreal Engine ,C++ , Pytorch, RL , Blender, C, Phython, Embedded System, Firebase Realme Database and 
+AWS Cloud. Raspberry Pi, Android Studio, UI/UX Developing (Affinity, Figma and Inkscape) and AI Agent Ulizaon.
+
+
+===== PAGE 5 =====
+6. ACHIEVEMENTS & RECOGNITION
+Total government innovaon grants secured for prototype development: INR 2.4 million
+•  IICDC 2019
+•  GENESIS EIR
+•  NIDHI PRAYAS
+•  IVP Program
+IICDC 2019 by Texas Instrument 
+and DST of India – Finalist
+Carbon Zero Challenge, IITM – 
+Grant Awardee
+DELTA CUP by Delta China – Runner 
+Up
+SMART MAKER FEST in USA and 
+CANADA – Runner Up

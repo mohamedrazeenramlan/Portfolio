@@ -1,0 +1,82 @@
+
+
+===== PAGE 1 =====
+MOHAMED RAZEEN RAMLAN 
+Mechatronics Engineer |CAD Designs, Intelligent Systems, Sensing & Control 
+RAZINRAZIN57@GMAIL.COM   |   +971503903358
+ABU DHABI, UAE
+LINKEDIN.COM/IN/MOHAMED-RAZEEN-R/
+BACKGROUND 
+Mechatronics engineer with hands-on experience building real-world intelligent systems that bridge sensing, control, and adaptive decision-making. Developed motion-
+capture-driven robotic systems, automated environmental control platforms with image-based feedback, and closed-loop industrial systems using real-time sensor data. 
+Designed and developed a various Laboratory and Pharmaceutical Instruments. Served as Consultant Mechanical Designer. 
+EDUCATION 
+BACHELOR OF ENGINEERING IN MECHATRONICS. 
+               Anna University (Bannari Amman Institute of Technology) 
+2018-2022 · Tamil Nadu, India.
+– 
+Delta Cup 2020 Runner up, IICDC -2019 Winner (with Startup Package) 
+– 
+GPA: 3.3/4.0 (8.37/10.0) 
+Startup Management and development Program.                                                                      NSRCEL, IIMB 
+12 Months · India.
+PATENT, AWARD&RECOGNITION 
+Granted Patent (Co-Inventor): Indian Patent No. 427494 - Automated Industrial Air Pollution Control System 
+Grant Awardee: Carbon Zero Challenge 5.0 (IIT Madras), MeitY GENESIS EIR 2025 Selected Startup 
+Finalist / Runner-Up: Smart Maker Fest 2021 (China), International Delta Cup 2020, Texas Instruments IICDC 2019 
+LANGUAGE KNOWN 
+Tamil (Native) · English (Professional) · Arabic (Beginner) · German (Beginner) 
+EXPERIENCE 
+GENERATION ONE SAVER PVT LTD  (Operational Lead and R & D engineer) 
+2022 - 2026
+– 
+Designed an industrial whirlpool wet scrubber and prepared its BOM and Manufacturing Techniques. Designed our own 20 HP Blower unit for the wet scrubber. Design 
+2D Drawing for Manufacturing with the appropriate tolerance. Supervised the whole manufacturing Process and deliver to the clients. 
+– 
+Worked with SolidWorks Sheet metal, Machining, Toolbox, Structural Member, Flow Simulation and Stress Analysis. Worked actively on building the prototype for 
+industrial air pollution control techniques and build many prototypes using Rapid Prototyping (FDM ,3DPrinting).  
+– 
+Developed real-world intelligent systems that combine sensing, control, and cloud data monitoring, including closed-loop air pollution control and automated 
+environmental platforms. 
+– 
+Design and developed the Control Panel that can power up the sensors and VFD Control System.  
+– 
+Integrated the Microcontroller, Raspberry Pi, Gas Sensors, Light Intensity, Relays etc.  and its electronics communication like I2C, UART and WIFI integrate these into 
+the system to achieve automated control system. 
+– 
+Built an automated microalgae culture system with image-based visual feedback, multi-parameter environmental control, and cloud connectivity for adaptive 
+optimisation. By implementing the Machine Learning system into Raspberry Pi with Webcam to detect the Micro Algae growth by image processing that allows the 
+program to Adjust the environmental parameters such Light intensity, CO2 supply and temperature. 
+– 
+Led multi-disciplinary collaboration across mechanical, embedded, and biological domains to deliver functional prototypes from concept to validation. 
+– 
+Created simulation environments and prepared complex 3D models using SolidWorks and Flow Simulation to support system design, testing, and stakeholder 
+communication.  
+– 
+Developed detailed 3D models and technical 2D drawings for sheet metal enclosures and mechanical assemblies, ensuring design for manufacturability (DFM) and 
+seamless integration with prototype test rigs. 
+– 
+Led the end-to-end commissioning of prototype test rigs, including the systematic troubleshooting of sensor integration and ML-driven control logic to optimize system 
+stability. 
+PROJECTS 
+Closed-Loop Industrial Air Pollution Control System (Patented) 
+Engineered a patented zig-zag wet scrubber with real-time air quality sensing and closed-loop VFD control. Achieved NABL-validated removal efficiencies of 99.74% (PM2.5) 
+and 99.84% (PM10). Integrated IoT monitoring for continuous performance tracking. 
+ 
+
+
+===== PAGE 2 =====
+Automated Environmental Control System for Microalgae Culture 
+Designed a multi-parameter control system (light, temperature, CO₂, airflow) with image-based visual feedback and cloud connectivity. Enabled adaptive environmental 
+adjustment based on real-time culture conditions to optimise growth. 
+LABORATORY GAS ANALYZER 
+Designed and engineered a laboratory-grade analysis kit integrating multi-gas sensors (PM, CO2, NOX, SOX, VOC) for nanomaterial characterization. 
+PHARMACEUTICAL INSTRUMENTATION 
+Worked as Design consultant for Pharmag Instruments Pvt Ltd. And QLIA Pvt Ltd. Designed and Fabricated pharmaceutical instruments and its enclosure.  
+Designed and Manufacture Ph Meter with 15 point Calibrations 
+CORE COMPETENCIES 
+Design & CAD: Blender, SolidWorks 
+Programming: C++, Python, PyTorch, Unreal Engine, Reinforcement Learning (RL), Embedded Systems (Arduino, Raspberry Pi, ESP32), IoT Architecture 
+Systems Integration: Electromechanical System Design, Sensor Integration 
+Prototyping & Manufacturing: Additive Manufacturing (FDM 3D Printing), Sheet Metal Fabrication, Laser Cutting, Design for Manufacturability (DFM/DFA) 
+Validation & Support: Test Plan Development, Prototype Physical Testing, Technical Report Writing, Cross-Functional Team Leadership, Supply Chain Coordination 

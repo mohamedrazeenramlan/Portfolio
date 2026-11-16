@@ -1,0 +1,93 @@
+
+
+===== PAGE 1 =====
+MOHAMED RAZEEN RAMLAN 
+Design Engineer | Mechatronics | razinrazin57@gmail.com   |   +971503903358 | Abu Dhabi, UAE | linkedin.com/in/mohamed-razeen-r/ 
+BACKGROUND 
+Design Engineer (Mechatronics) with 3+ years of experience in end-to-end development of tolerance-critical industrial equipment, from concept and 3D parametric modelling 
+through 2D detailing, dimensional tolerancing, DFM/DFA review, fabrication, assembly and prototype validation. Proficient in SolidWorks sheet metal design, AutoCAD laser-
+cutting drawings, DXF/DWG flat-pattern release, structural load and factor-of-safety analysis, CFD-based flow and pressure analysis, CAM and additive manufacturing (FDM). 
+Co-inventor of a granted Indian patent, with NABL-validated equipment achieving up to 99.84% particulate removal. Experienced in leading assembly and commissioning and 
+coordinating with fabricators, suppliers and clients. 
+EDUCATION 
+BACHELOR OF ENGINEERING IN MECHATRONICS. 
+               Anna University (Bannari Amman Institute of Technology) 
+2018-2022 · Tamil Nadu, India.
+– 
+GPA: 3.3/4.0 (8.37/10.0) 
+PATENT, AWARD&RECOGNITION 
+Granted Patent (Co-Inventor): Indian Patent No. 427494 - Automated Industrial Air Pollution Control System 
+Grant Awardee: Carbon Zero Challenge 5.0 (IIT Madras), MeitY GENESIS EIR 2025 Selected Startup 
+Finalist / Runner-Up: Smart Maker Fest 2021 (China), International Delta Cup 2020, Texas Instruments IICDC 2019 
+LANGUAGE KNOWN 
+Tamil (Native)   English (Professional) · Arabic (Beginner) · German (Beginner) 
+EXPERIENCE 
+GENERATION ONE SAVER PVT LTD (Design & R&D Engineer – Operational Lead)  - Coimbatore, India 
+2022 - 2026
+– 
+Designed and CFD-analysed a patented industrial air pollution control system, sizing the system for target static pressure and volumetric flow rate (CFM) from furnace 
+to duct network while applying DFM and DFA principles. 
+– 
+Built functional prototypes of air pollution control concepts using rapid prototyping (FDM 3D printing) for form, fit and function validation prior to release to 
+fabrication. 
+– 
+Modelled sheet metal components in SolidWorks and prepared AutoCAD drawings and DXF/DWG flat patterns for laser cutting, bending and welding, with 2D 
+manufacturing drawings carrying dimensions, tolerances and material specifications; designed CAM-machined parts and see-through glass viewing windows. 
+– 
+Designed and manufactured a 4000 CFM, 20 HP blower assembly integrated with the main equipment, optimised for minimal pressure drop. 
+– 
+Specified and controlled dimensional tolerances and fits on assemblies for industrial vacuum and airflow equipment, where tolerance mismatch leads to functional 
+failure. 
+– 
+Performed structural load calculations and factor-of-safety analysis on structural members to verify strength for a 900 kg load capacity. 
+– 
+Calculated duct diameters and sized elbows and tee (T) bends for the furnace duct network to limit pressure losses. 
+– 
+Conducted site surveys to measure and document existing pollution control equipment; presented equipment performance and working principle to operations 
+managers to capture design requirements. 
+– 
+Supported the team in securing grant funding for prototype development. 
+– 
+Consulted on the design and automation of manual processes into automated mechanisms for industrial clients: 
+                        Banfab Pvt Ltd – Automated banana fibre softening machine 
+                      Veyyon Plywoods Pvt Ltd – Blower and plywood chip dispenser 
+                          Pharmag Instruments Pvt Ltd, Qlia Pvt Ltd – Sheet metal enclosure design for pharmaceutical instruments 
+– 
+Collaborated with multidisciplinary teams to translate requirements into compatible electro-mechanical designs that improved pollution control efficiency; designed 
+and manufactured multiple experimental systems. 
+– 
+Designed and built a photoreactor that absorbs CO₂ and releases oxygen, intended for integration in industrial zones to reduce carbon footprint. 
+– 
+Developed detailed 3D models and 2D technical drawings for sheet metal enclosures and mechanical assemblies, ensuring design for manufacturability (DFM) and 
+seamless integration with prototype test rigs. 
+– 
+Led end-to-end commissioning of prototype test rigs, including systematic troubleshooting of sensor integration and ML-driven control logic to optimise system 
+stability. 
+PROJECTS 
+Closed-Loop Industrial Air Pollution Control System (Patented) 
+Engineered a patented zig-zag wet scrubber with real-time air quality sensing: 10,000 L capacity, 4000 CFM, 20 HP blower. Fabricated from 4 mm stainless steel sheet with 
+MS structural members and inch-size tapped screws and bolts. Achieved NABL-validated removal efficiencies of 99.74% (PM2.5) and 99.84% (PM10); integrated IoT 
+monitoring for continuous performance tracking. 
+
+
+===== PAGE 2 =====
+Automated Environmental Control System for Microalgae Culture 
+Designed a multi-parameter control system (light, temperature, CO₂, airflow) with image-based visual feedback and cloud connectivity for adaptive growth optimisation. 
+Enclosure fabricated from 3 mm MS sheet with MS structural frame and acrylic panels; integrated air cooling and heating subsystem. 
+LABORATORY GAS ANALYZER 
+Designed and engineered a laboratory-grade gas analysis kit integrating multi-gas sensors (PM, CO₂, NOx, SOx, VOC) for nanomaterial characterization. Enclosure built from 
+3 mm MS sheet metal with additive-manufactured (FDM – PLA and ABS) components. 
+PHARMACEUTICAL INSTRUMENTATION 
+Consulted for Pharmag Instruments Pvt Ltd and QLIA Pvt Ltd: designed and fabricated pharmaceutical instruments and enclosures using MS and SS sheet metal and 
+machined aluminium components, supported by mechanical motion studies and heat exchange calculations. 
+Designed and manufactured a pH meter with 15-point calibration. 
+CORE COMPETENCIES 
+Design & CAD: SolidWorks (3D Parametric Part & Assembly Modelling, Sheet Metal Design, 2D Engineering Drawings, DXF/DWG), AutoCAD (Laser Cutting Drawings, 2D 
+Drafting), Dimensional Tolerancing, Blender 
+Analysis & Simulation: Structural Load Calculation, Factor of Safety Analysis, CFD (Pressure Drop, Flow Rate / CFM), Duct & Blower Sizing, Heat Exchange Calculations, 
+Mechanical Motion Study 
+Programming: C++, Python, PyTorch, PLC, Unreal Engine, Reinforcement Learning (RL), Embedded Systems (Arduino, Raspberry Pi, ESP32), IoT Architecture 
+Systems Integration: Electromechanical System Design, Sensor Integration, Prototype Test Rig Development, Commissioning 
+Prototyping & Manufacturing: Sheet Metal Fabrication (Laser Cutting, Bending, Welding), CAM / Machined Aluminium Parts, Additive Manufacturing (FDM – PLA, ABS), 
+Rapid Prototyping, Design for Manufacturability (DFM/DFA), MS / SS Material Selection 
+Validation & Support: Test Plan Development, Prototype Physical Testing, Technical Report Writing, Cross-Functional Team Leadership, Supplier & Fabricator Coordination 

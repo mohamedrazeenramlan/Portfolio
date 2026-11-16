@@ -2,673 +2,359 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mohamed Razeen Ramlan | Mechatronics & R&D Engineer</title>
-  <meta name="description" content="Mechatronics Engineer | CleanTech R&D | Patented Industrial Wet Scrubber | Photobioreactor Systems | Abu Dhabi" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mohamed Razeen Ramlan · R&D Engineer</title>
+  <meta name="description" content="Mohamed Razeen Ramlan is an R&D engineer in Abu Dhabi. SolidWorks mechanical design, closed-loop industrial systems, and machine learning for cleaner air and adaptive control." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <style>
-    :root {
-      --primary: #0f766e;
-      --primary-dark: #0d5c56;
-      --accent: #14b8a6;
-      --bg: #f8fafc;
-      --text: #0f172a;
-      --text-light: #475569;
-      --card: #ffffff;
-      --border: #e2e8f0;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Inter', system-ui, -apple-system, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-      font-size: 16px;
-    }
-
-    a {
-      color: var(--primary);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 0 24px;
-    }
-
-    /* Header / Nav */
-    header {
-      background: var(--card);
-      border-bottom: 1px solid var(--border);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 16px 0;
-    }
-
-    .logo {
-      font-weight: 700;
-      font-size: 1.15rem;
-      color: var(--text);
-    }
-
-    .nav-links {
-      display: flex;
-      gap: 24px;
-      list-style: none;
-    }
-
-    .nav-links a {
-      color: var(--text-light);
-      font-weight: 500;
-      font-size: 0.95rem;
-    }
-
-    .nav-links a:hover {
-      color: var(--primary);
-      text-decoration: none;
-    }
-
-    /* Hero */
-    .hero {
-      padding: 72px 0 56px;
-      text-align: center;
-    }
-
-    .hero h1 {
-      font-size: 2.4rem;
-      font-weight: 700;
-      margin-bottom: 12px;
-      letter-spacing: -0.02em;
-    }
-
-    .hero .tagline {
-      font-size: 1.25rem;
-      color: var(--primary);
-      font-weight: 600;
-      margin-bottom: 16px;
-    }
-
-    .hero p {
-      max-width: 640px;
-      margin: 0 auto 28px;
-      color: var(--text-light);
-      font-size: 1.05rem;
-    }
-
-    .hero-buttons {
-      display: flex;
-      gap: 12px;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 12px 22px;
-      border-radius: 8px;
-      font-weight: 600;
-      font-size: 0.95rem;
-      transition: all 0.2s;
-      border: none;
-      cursor: pointer;
-    }
-
-    .btn-primary {
-      background: var(--primary);
-      color: white;
-    }
-
-    .btn-primary:hover {
-      background: var(--primary-dark);
-      text-decoration: none;
-      color: white;
-    }
-
-    .btn-outline {
-      background: transparent;
-      border: 1.5px solid var(--border);
-      color: var(--text);
-    }
-
-    .btn-outline:hover {
-      border-color: var(--primary);
-      color: var(--primary);
-      text-decoration: none;
-    }
-
-    /* Sections */
-    section {
-      padding: 56px 0;
-    }
-
-    section h2 {
-      font-size: 1.6rem;
-      font-weight: 700;
-      margin-bottom: 28px;
-      letter-spacing: -0.01em;
-    }
-
-    .section-alt {
-      background: var(--card);
-      border-top: 1px solid var(--border);
-      border-bottom: 1px solid var(--border);
-    }
-
-    /* About */
-    .about-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 40px;
-      align-items: start;
-    }
-
-    .about-text p {
-      margin-bottom: 16px;
-      color: var(--text-light);
-    }
-
-    .highlight-box {
-      background: #f0fdfa;
-      border: 1px solid #99f6e4;
-      border-radius: 12px;
-      padding: 20px;
-    }
-
-    .highlight-box h3 {
-      font-size: 1rem;
-      margin-bottom: 12px;
-      color: var(--primary-dark);
-    }
-
-    .highlight-box ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    .highlight-box li {
-      padding: 6px 0;
-      font-size: 0.95rem;
-      color: var(--text);
-    }
-
-    .highlight-box li::before {
-      content: "→ ";
-      color: var(--accent);
-      font-weight: 600;
-    }
-
-    /* Projects */
-    .projects-grid {
-      display: grid;
-      gap: 24px;
-    }
-
-    .project-card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 24px;
-      transition: box-shadow 0.2s;
-    }
-
-    .project-card:hover {
-      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
-    }
-
-    .project-card h3 {
-      font-size: 1.15rem;
-      margin-bottom: 8px;
-    }
-
-    .project-meta {
-      font-size: 0.85rem;
-      color: var(--primary);
-      font-weight: 500;
-      margin-bottom: 12px;
-    }
-
-    .project-card p {
-      color: var(--text-light);
-      font-size: 0.95rem;
-      margin-bottom: 12px;
-    }
-
-    .tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .tag {
-      background: #f1f5f9;
-      color: var(--text-light);
-      font-size: 0.8rem;
-      padding: 4px 10px;
-      border-radius: 20px;
-      font-weight: 500;
-    }
-
-    /* Skills */
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-    }
-
-    .skill-group h3 {
-      font-size: 0.95rem;
-      margin-bottom: 10px;
-      color: var(--primary-dark);
-    }
-
-    .skill-group ul {
-      list-style: none;
-    }
-
-    .skill-group li {
-      font-size: 0.9rem;
-      color: var(--text-light);
-      padding: 3px 0;
-    }
-
-    /* Experience timeline */
-    .timeline {
-      position: relative;
-      padding-left: 24px;
-      border-left: 2px solid var(--border);
-    }
-
-    .timeline-item {
-      margin-bottom: 32px;
-      position: relative;
-    }
-
-    .timeline-item::before {
-      content: "";
-      position: absolute;
-      left: -31px;
-      top: 6px;
-      width: 12px;
-      height: 12px;
-      border-radius: 50%;
-      background: var(--primary);
-      border: 2px solid var(--bg);
-    }
-
-    .timeline-item h3 {
-      font-size: 1.1rem;
-      margin-bottom: 4px;
-    }
-
-    .timeline-item .company {
-      color: var(--primary);
-      font-weight: 500;
-      font-size: 0.95rem;
-    }
-
-    .timeline-item .period {
-      font-size: 0.85rem;
-      color: var(--text-light);
-      margin-bottom: 8px;
-    }
-
-    .timeline-item ul {
-      margin-top: 8px;
-      padding-left: 18px;
-      color: var(--text-light);
-      font-size: 0.95rem;
-    }
-
-    .timeline-item li {
-      margin-bottom: 4px;
-    }
-
-    /* Contact */
-    .contact-box {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 32px;
-      text-align: center;
-    }
-
-    .contact-box p {
-      color: var(--text-light);
-      margin-bottom: 20px;
-    }
-
-    .contact-links {
-      display: flex;
-      justify-content: center;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
-
-    .contact-links a {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 10px 18px;
-      background: #f1f5f9;
-      border-radius: 8px;
-      color: var(--text);
-      font-weight: 500;
-      font-size: 0.95rem;
-    }
-
-    .contact-links a:hover {
-      background: #e2e8f0;
-      text-decoration: none;
-    }
-
-    /* Footer */
-    footer {
-      text-align: center;
-      padding: 32px 0;
-      color: var(--text-light);
-      font-size: 0.85rem;
-      border-top: 1px solid var(--border);
-    }
-
-    /* Responsive */
-    @media (max-width: 700px) {
-      .hero h1 {
-        font-size: 1.9rem;
-      }
-      .about-grid {
-        grid-template-columns: 1fr;
-      }
-      .nav-links {
-        display: none;
-      }
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@300;400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+  <div class="atmosphere" aria-hidden="true"></div>
 
-  <!-- Header -->
-  <header>
-    <div class="container">
-      <nav>
-        <div class="logo">Mohamed Razeen Ramlan</div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header class="nav">
+    <a class="brand" href="#top">
+      <span class="mark" aria-hidden="true"></span>
+      <span>Razeen<span class="dot">.</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav">
+      <a href="#about">About</a>
+      <a href="#craft">Craft</a>
+      <a href="#projects">Projects</a>
+      <a href="#recognition">Recognition</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <!-- Hero -->
-  <section class="hero">
-    <div class="container">
-      <h1>Mohamed Razeen Ramlan</h1>
-      <div class="tagline">Mechatronics Engineer | CleanTech R&D | Abu Dhabi</div>
-      <p>
-        Hands-on engineer with nearly 4 years building electromechanical systems, 
-        industrial air-pollution control hardware, and IoT-enabled environmental technologies. 
-        Named co-inventor on a granted Indian patent. Open to R&D, product development, 
-        and climate-tech roles in the UAE.
-      </p>
-      <div class="hero-buttons">
-        <a href="#contact" class="btn btn-primary">Get in Touch</a>
-        <a href="mailto:razinrazin57@gmail.com" class="btn btn-outline">Email Me</a>
-        <a href="https://linkedin.com/in/mohamed-razeen-r/" target="_blank" class="btn btn-outline">LinkedIn</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section id="about" class="section-alt">
-    <div class="container">
-      <h2>About</h2>
-      <div class="about-grid">
-        <div class="about-text">
-          <p>
-            I am a Mechatronics Engineer currently based in Abu Dhabi. I co-founded a DPIIT-recognised 
-            CleanTech startup during my final year of engineering and spent nearly four years taking 
-            hardware from concept to client delivery.
-          </p>
-          <p>
-            My work spans electromechanical design, rapid prototyping (CAD + 3D printing + sheet metal), 
-            control panels, sensor/actuator integration, and IoT systems. I am particularly passionate 
-            about applying these skills to environmental and climate-tech challenges — air pollution control, 
-            sustainable process systems, and ecosystem-related hardware.
-          </p>
-          <p>
-            I am now looking for R&D, product development, or junior research roles where I can contribute 
-            my hands-on engineering experience and continue growing in the environmental technology space.
-          </p>
-        </div>
-        <div class="highlight-box">
-          <h3>Key Highlights</h3>
-          <ul>
-            <li>Granted Indian Patent (No. 427494) – industrial wet scrubber</li>
-            <li>99.74% PM2.5 & 99.84% PM10 removal (NABL validated)</li>
-            <li>INR 2.4M+ in government innovation grants secured</li>
-            <li>4,000 CFM industrial system delivered to client</li>
-            <li>Automated microalgae photobioreactor (IoT + multi-variable control)</li>
-            <li>Carbon Zero Challenge participant (IIT Madras)</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects">
-    <div class="container">
-      <h2>Selected Projects</h2>
-      <div class="projects-grid">
-
-        <div class="project-card">
-          <h3>Industrial Wet Scrubber (Patented)</h3>
-          <div class="project-meta">Air Pollution Control · Generation-One Saver · 2022–2025</div>
-          <p>
-            Co-invented a zig-zag wet scrubbing chamber (Indian Patent No. 427494). 
-            Designed, fabricated and delivered a 4,000 CFM industrial unit for a ferrous foundry. 
-            NABL-accredited testing confirmed 99.74% PM2.5 and 99.84% PM10 removal. 
-            Integrated custom electrical control panel with the mechanical structure.
-          </p>
-          <div class="tags">
-            <span class="tag">Sheet Metal</span>
-            <span class="tag">CAD / SolidWorks</span>
-            <span class="tag">Control Panel</span>
-            <span class="tag">Emissions Reduction</span>
-            <span class="tag">Patent</span>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <h3>Automated Microalgae Photobioreactor</h3>
-          <div class="project-meta">CleanTech / Bio-systems · 2022–2024</div>
-          <p>
-            Designed and prototyped a 2-litre automated photobioreactor and culture rack. 
-            Integrated mechanical, electrical and IoT subsystems for multi-variable control 
-            (light, temperature, airflow). Iterated through 3D-printed and sheet-metal prototypes 
-            based on test data in collaboration with microbiologists.
-          </p>
-          <div class="tags">
-            <span class="tag">IoT</span>
-            <span class="tag">Sensors & Actuators</span>
-            <span class="tag">3D Printing</span>
-            <span class="tag">Rapid Prototyping</span>
-            <span class="tag">Environmental</span>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <h3>Blackwater Treatment System</h3>
-          <div class="project-meta">Water / Resource Recovery · Research Support</div>
-          <p>
-            Supported the design of a blackwater treatment system integrating anaerobic digestion, 
-            heavy-metal filtration, and Peltier-based evaporation & condensation. 
-            Focused on overall equipment layout and the design of evaporation and condensation chambers.
-          </p>
-          <div class="tags">
-            <span class="tag">System Design</span>
-            <span class="tag">Thermal</span>
-            <span class="tag">Water Treatment</span>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <h3>IoT & Industrial Monitoring Systems</h3>
-          <div class="project-meta">Sensors · Embedded · Client Projects</div>
-          <p>
-            Developed embedded sensor systems and real-time monitoring interfaces for industrial 
-            air-quality monitoring and laboratory gas analysis. Also designed an IoT-enabled 
-            automated banana fibre softening machine and sheet-metal instrument bodies for 
-            pharmaceutical testing equipment (including an IoT pH meter with app-based calibration).
-          </p>
-          <div class="tags">
-            <span class="tag">Arduino / Embedded</span>
-            <span class="tag">IoT</span>
-            <span class="tag">Data Monitoring</span>
-            <span class="tag">Sheet Metal</span>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Experience -->
-  <section id="experience" class="section-alt">
-    <div class="container">
-      <h2>Experience</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <h3>Co-Founder, Director & Operations Lead</h3>
-          <div class="company">Generation-One Saver Pollution Control Pvt Ltd</div>
-          <div class="period">April 2022 – September 2026 · Coimbatore, India (DPIIT-recognised CleanTech startup)</div>
-          <ul>
-            <li>Co-founded the company in the final year of engineering; led day-to-day operations and concurrent engineering projects.</li>
-            <li>Helped secure INR 2.4M in government innovation grants (IVP, GENESIS-EIR, NIDHI PRAYAS, Carbon Zero Challenge 5.0 – IIT Madras).</li>
-            <li>Took multiple hardware products from concept through design, fabrication, testing and client delivery.</li>
-            <li>Prepared technical reports and documentation for clients, incubators and grant reviews.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills -->
-  <section id="skills">
-    <div class="container">
-      <h2>Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-group">
-          <h3>Electronics & Embedded</h3>
-          <ul>
-            <li>Arduino & Microcontroller Programming</li>
-            <li>Sensor & Actuator Integration</li>
-            <li>Electrical Control Panel Design</li>
-            <li>PLC & Automation Basics</li>
-            <li>Troubleshooting & Testing</li>
-          </ul>
-        </div>
-        <div class="skill-group">
-          <h3>Design & Fabrication</h3>
-          <ul>
-            <li>SolidWorks & AutoCAD</li>
-            <li>FDM 3D Printing & Rapid Prototyping</li>
-            <li>Sheet Metal Fabrication</li>
-            <li>Mechanical Assembly</li>
-            <li>DFM principles (practical)</li>
-          </ul>
-        </div>
-        <div class="skill-group">
-          <h3>Systems & Software</h3>
-          <ul>
-            <li>IoT Systems & Dashboards</li>
-            <li>Real-time Data Monitoring</li>
-            <li>Technical Documentation</li>
-            <li>Grant & Project Reporting</li>
-            <li>Microsoft Office / Notion</li>
-          </ul>
-        </div>
-        <div class="skill-group">
-          <h3>Domain Focus</h3>
-          <ul>
-            <li>Air Pollution Control</li>
-            <li>CleanTech Hardware</li>
-            <li>Environmental Monitoring</li>
-            <li>Electromechanical Integration</li>
-            <li>Product Development (Concept → Delivery)</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Education -->
-  <section class="section-alt">
-    <div class="container">
-      <h2>Education</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <h3>Bachelor of Engineering – Mechatronics Engineering</h3>
-          <div class="company">Anna University (Bannari Amman Institute of Technology)</div>
-          <div class="period">2018 – 2022 · CGPA 8.37 / 10.00 · First Class</div>
-        </div>
-        <div class="timeline-item">
-          <h3>Entrepreneurship Programme</h3>
-          <div class="company">NSRCEL, IIM Bangalore</div>
-          <div class="period">12-month programme</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact">
-    <div class="container">
-      <div class="contact-box">
-        <h2 style="margin-bottom: 12px;">Let’s Connect</h2>
-        <p>
-          Open to R&D, Product Development, Mechatronics, and Climate/Environmental technology roles in Abu Dhabi and the UAE.<br>
-          Happy to discuss projects, opportunities, or collaborations.
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">Abu Dhabi · Mechatronics · Clean industry</p>
+        <h1>Mohamed Razeen Ramlan</h1>
+        <p class="role">R&amp;D Engineer</p>
+        <p class="lede">
+          I design machines in SolidWorks and close the loop with sensing, embedded control, and machine learning.
+          The work sits where sheet metal, airflow, and intelligent software meet — industrial air cleaning, adaptive bioprocesses, and laboratory instruments that leave the screen and run in the field.
         </p>
-        <div class="contact-links">
-          <a href="mailto:razinrazin57@gmail.com">✉ razinrazin57@gmail.com</a>
-          <a href="tel:+971503903358">📞 +971 50 390 3358</a>
-          <a href="https://linkedin.com/in/mohamed-razeen-r/" target="_blank">LinkedIn Profile</a>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View projects</a>
+          <a class="btn ghost" href="#contact">Start a conversation</a>
         </div>
+        <ul class="pills" aria-label="Focus areas">
+          <li>SolidWorks</li>
+          <li>AI &amp; Machine Learning</li>
+          <li>Flow simulation</li>
+          <li>Embedded &amp; IoT</li>
+        </ul>
       </div>
-    </div>
-  </section>
+
+      <figure class="portrait-wrap">
+        <div class="orbit" aria-hidden="true"></div>
+        <img src="assets/portrait.png" alt="Portrait of Mohamed Razeen Ramlan" />
+        <figcaption>
+          <span>Design &amp; R&amp;D</span>
+          <strong>Generation One Saver</strong>
+        </figcaption>
+        <ul class="float-tags" aria-hidden="true">
+          <li>PyTorch</li>
+          <li>CFD</li>
+          <li>Patent 427494</li>
+        </ul>
+      </figure>
+    </section>
+
+    <section class="metrics" aria-label="Selected results">
+      <article>
+        <strong>99.84%</strong>
+        <span>PM10 removal, NABL validated</span>
+      </article>
+      <article>
+        <strong>99.74%</strong>
+        <span>PM2.5 removal on the same unit</span>
+      </article>
+      <article>
+        <strong>4,000</strong>
+        <span>CFM delivered to a ferrous foundry</span>
+      </article>
+      <article>
+        <strong>₹2.4M</strong>
+        <span>Innovation grants for prototypes</span>
+      </article>
+    </section>
+
+    <section id="about" class="about">
+      <div class="section-head">
+        <p class="kicker">01 — Profile</p>
+        <h2>An R&amp;D engineer who stays with the machine from the first sketch to commissioning.</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          I am a mechatronics engineer based in Abu Dhabi, with the core of my practice built at Generation One Saver as Design &amp; R&amp;D Engineer and operational lead. I take industrial problems through parametric modelling, tolerance and DFM review, fabrication, sensor integration, and prototype validation.
+        </p>
+        <p>
+          SolidWorks is the workshop I think in: sheet metal, structural members, machining, stress, and flow simulation, then 2D drawings and DXF flat patterns that a laser cutter can actually run. Alongside that, I put machine learning on the hardware — image models on a Raspberry Pi, air-quality models for predictive maintenance, and motion models that turn a camera into a robot interface.
+        </p>
+        <dl class="facts">
+          <div>
+            <dt>Education</dt>
+            <dd>B.E. Mechatronics, Anna University — Bannari Amman Institute of Technology, 2018–2022. GPA 8.37/10.</dd>
+          </div>
+          <div>
+            <dt>Venture</dt>
+            <dd>12-month startup management programme, NSRCEL, IIM Bangalore.</dd>
+          </div>
+          <div>
+            <dt>Languages</dt>
+            <dd>Tamil, English, beginner Arabic and German.</dd>
+          </div>
+          <div>
+            <dt>Now</dt>
+            <dd>Abu Dhabi, UAE · open to R&amp;D, design, and intelligent-systems roles.</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="craft" class="craft">
+      <div class="section-head">
+        <p class="kicker">02 — How I work</p>
+        <h2>SolidWorks for the body of the machine. AI for the decisions it makes while it runs.</h2>
+      </div>
+      <div class="craft-grid">
+        <article class="panel emphasis">
+          <p class="index">CAD</p>
+          <h3>SolidWorks, end to end</h3>
+          <p>Parametric parts and assemblies, sheet metal, structural members, Toolbox hardware, and machining features. I release 2D manufacturing drawings with tolerances, DXF and DWG flat patterns for laser cutting, and models that fabricators can bend and weld without a second translation.</p>
+          <ul>
+            <li>Flow Simulation for pressure drop, CFM, and duct networks</li>
+            <li>Stress and factor-of-safety checks, including a 900 kg structural case</li>
+            <li>DFM and DFA before a design leaves the model</li>
+            <li>AutoCAD laser drawings and Blender for communication</li>
+          </ul>
+        </article>
+        <article class="panel emphasis">
+          <p class="index">AI</p>
+          <h3>Machine learning on real hardware</h3>
+          <p>Models are useful here when they change a setpoint. I train and deploy perception and control logic in Python and PyTorch, then wire the result into Raspberry Pi, ESP32, and cloud state so a machine can adapt instead of waiting for an operator.</p>
+          <ul>
+            <li>Vision models that read microalgae colour, opacity, and growth</li>
+            <li>Air-quality learning for predictive maintenance and pollution reports</li>
+            <li>MediaPipe motion capture driving an articulated robot</li>
+            <li>Reinforcement learning, Unreal Engine simulation, and AI-agent workflows</li>
+          </ul>
+        </article>
+        <article class="panel">
+          <p class="index">SYS</p>
+          <h3>Sensing, control, build</h3>
+          <p>Control panels, VFDs, gas and light sensors, I2C, UART, and Wi-Fi. I commission the rig, troubleshoot the loop, and stay with fabrication: FDM in PLA and ABS, laser-cut sheet, bending, welding, and CAM aluminium.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="section-head">
+        <p class="kicker">03 — Selected work</p>
+        <h2>Projects, with the photographs and models behind them.</h2>
+        <p class="sub">Each collage is drawn from build photos, SolidWorks studies, dashboards, and simulations.</p>
+      </div>
+
+      <article class="project" id="scrubber">
+        <div class="project-copy">
+          <p class="eyebrow">Flagship · Granted patent</p>
+          <h3>G1S Mark II — Zig-Zag Wet Scrubber</h3>
+          <p>An industrial emission system whose zig-zag chamber captures particulate at the source. I designed and CFD-sized the equipment for furnace duct networks, modelled it in SolidWorks, and followed a 4,000 CFM, 20 HP unit through fabrication and delivery to a ferrous foundry — stainless chamber, structural frame, custom blower, and electrical panel included.</p>
+          <p>Air-quality sensors close the loop on a variable-frequency drive. Machine learning on that stream supports predictive maintenance alerts and automated pollution reporting, with live readings in Firebase and an operations dashboard.</p>
+          <ul class="chips">
+            <li>99.74% PM2.5</li>
+            <li>99.84% PM10</li>
+            <li>1,500–4,500 CFM</li>
+            <li>Patent 427494</li>
+          </ul>
+        </div>
+        <div class="collage c-scrubber">
+          <button type="button" data-full="assets/scrubber-cad.jpg"><img src="assets/scrubber-cad.jpg" alt="SolidWorks-based render of the zig-zag wet scrubber with ducting and blower" /></button>
+          <button type="button" data-full="assets/scrubber-site.jpg"><img src="assets/scrubber-site.jpg" alt="Installed wet scrubber and blower outside an industrial building" /></button>
+          <button type="button" data-full="assets/scrubber-dashboard.jpg"><img src="assets/scrubber-dashboard.jpg" alt="G-One Saver air quality dashboard with particulate and gas charts" /></button>
+          <button type="button" data-full="assets/scrubber-cloud.png"><img src="assets/scrubber-cloud.png" alt="Firebase realtime readings from the scrubber sensors" /></button>
+        </div>
+      </article>
+
+      <article class="project reverse" id="algae">
+        <div class="project-copy">
+          <p class="eyebrow">Carbon · Vision feedback</p>
+          <h3>Photobioreactor &amp; automated culture rack</h3>
+          <p>A downstream carbon module: high-density microalgae take residual CO₂ and turn it into oxygen and harvestable biomass. I designed the culture rack so each environment — light, temperature, nutrients, airflow — can be simulated and steered independently. The enclosure is 3 mm mild steel with a structural frame, acrylic panels, and heating and cooling.</p>
+          <p>The intelligence is visual. A Raspberry Pi watches culture colour and opacity, chooses set-points, and writes them to Firebase. An ESP32 reads those values and actuates the rack. Experimental runs can push growth, then report the metrics. Biomass productivity sits around 0.5–1.2 g/L/day, on standard 100 mm tubes that can sit after the zig-zag chamber.</p>
+          <ul class="chips">
+            <li>Image-based ML</li>
+            <li>Raspberry Pi + ESP32</li>
+            <li>CO₂ to biomass</li>
+          </ul>
+        </div>
+        <div class="collage c-algae">
+          <button type="button" data-full="assets/algae-rack.jpg"><img src="assets/algae-rack.jpg" alt="Illuminated culture rack with flasks, tubing, and controllers" /></button>
+          <button type="button" data-full="assets/algae-column.jpg"><img src="assets/algae-column.jpg" alt="Glowing green microalgae column on a laboratory bench" /></button>
+          <button type="button" data-full="assets/algae-flask.jpg"><img src="assets/algae-flask.jpg" alt="Microalgae culture flask with aeration tubing" /></button>
+        </div>
+      </article>
+
+      <article class="project" id="analyzer">
+        <div class="project-copy">
+          <p class="eyebrow">Laboratory instrument</p>
+          <h3>Multi-gas laboratory analyzer</h3>
+          <p>A bench instrument that folds particulate, flue-gas, and VOC sensing into one kit for nanomaterial work — which gases a material absorbs, and how completely. The enclosure is 3 mm mild-steel sheet with FDM parts in PLA and ABS, a viewing window, and a live multi-channel display.</p>
+          <p>Sensors cover PM, CO₂, CO, NOx, SOx, NH₃, and VOC. The same sensing stack that watches a factory stack is repackaged here for scientists, laboratory staff, and clean-room checks.</p>
+          <ul class="chips">
+            <li>PM · CO₂ · NOx · SOx · VOC</li>
+            <li>Sheet metal + FDM</li>
+            <li>Nanomaterial characterization</li>
+          </ul>
+        </div>
+        <div class="collage c-analyzer">
+          <button type="button" data-full="assets/analyzer-unit.jpg"><img src="assets/analyzer-unit.jpg" alt="Black laboratory gas analyzer with a live multi-gas display" /></button>
+          <button type="button" data-full="assets/analyzer-lab.jpg"><img src="assets/analyzer-lab.jpg" alt="Gas analyzer on a laboratory table during a demonstration" /></button>
+        </div>
+      </article>
+
+      <article class="project reverse" id="instruments">
+        <div class="project-copy">
+          <p class="eyebrow">Consultancy · SolidWorks</p>
+          <h3>Pharmaceutical &amp; process instruments</h3>
+          <p>Design consultancy for Pharmag Instruments and QLIA, plus process machines for Banfab and Veyyon. I modelled enclosures in mild steel, stainless steel, and machined aluminium, backed by motion studies and heat-exchange calculations, then followed them into fabrication.</p>
+          <p>The set includes a banana-fibre softening chamber with IoT and an app, a 15-point calibration pH meter, blower and chip-handling equipment, and a parking-lot vision monitor. The SolidWorks studies below are the same models the sheet-metal shop received.</p>
+          <ul class="chips">
+            <li>SolidWorks sheet metal</li>
+            <li>15-point pH meter</li>
+            <li>IoT instruments</li>
+          </ul>
+        </div>
+        <div class="collage c-pharma">
+          <button type="button" data-full="assets/pharma-solidworks.jpg"><img src="assets/pharma-solidworks.jpg" alt="SolidWorks model of a pharmaceutical instrument enclosure" /></button>
+          <button type="button" data-full="assets/banana-cad.jpg"><img src="assets/banana-cad.jpg" alt="CAD render of a banana fibre softening chamber" /></button>
+          <button type="button" data-full="assets/pharma-vessel.jpg"><img src="assets/pharma-vessel.jpg" alt="CAD render of a process vessel with a control tower" /></button>
+          <button type="button" data-full="assets/ph-meter.jpg"><img src="assets/ph-meter.jpg" alt="Pharmag pH meter touchscreen reading 9.52" /></button>
+        </div>
+      </article>
+
+      <article class="project" id="robot">
+        <div class="project-copy">
+          <p class="eyebrow">Personal R&amp;D · Perception</p>
+          <h3>Articulated robot from human motion</h3>
+          <p>A vision pipeline that turns a person’s arm into joint commands, aimed at cutting operator error on cranes and heavy machinery. MediaPipe reads a 720p webcam on a Raspberry Pi, tracks shoulder, elbow, and wrist, and converts that pose into axis values.</p>
+          <p>The same stream can drive an Unreal Engine simulation or a physical articulated robot — the target platform is a Delta DRV70L. It is the clearest picture of how I like to work: a learning model, a real-time loop, and a machine at the end of it.</p>
+          <ul class="chips">
+            <li>MediaPipe</li>
+            <li>Unreal Engine</li>
+            <li>Raspberry Pi</li>
+            <li>Reinforcement learning</li>
+          </ul>
+        </div>
+        <div class="collage c-robot">
+          <button type="button" data-full="assets/robot-vision.png"><img src="assets/robot-vision.png" alt="Arm pose tracking with shoulder, elbow, and wrist landmarks" /></button>
+          <button type="button" data-full="assets/robot-sim.png"><img src="assets/robot-sim.png" alt="Unreal Engine simulation of an articulated robot arm" /></button>
+        </div>
+      </article>
+    </section>
+
+    <section class="experience">
+      <div class="section-head">
+        <p class="kicker">04 — Experience</p>
+        <h2>One company, many machines, from concept to the client’s floor.</h2>
+      </div>
+      <ol class="timeline">
+        <li>
+          <p class="when">2022 — 2026</p>
+          <h3>Design &amp; R&amp;D Engineer · Operational Lead</h3>
+          <p class="where">Generation One Saver Pvt Ltd · Coimbatore</p>
+          <p>Led mechanical design, prototyping, and commissioning for air-pollution control and laboratory systems. Ran day-to-day operations, the parts library, rapid prototyping, client presentations, and grant documentation, and coordinated mechanical, embedded, CAD, and biology work.</p>
+        </li>
+        <li>
+          <p class="when">Consultancy</p>
+          <h3>Mechanical design for industrial and pharmaceutical clients</h3>
+          <p class="where">Pharmag Instruments · QLIA · Banfab · Veyyon Plywoods</p>
+          <p>Turned manual processes into automated mechanisms and delivered sheet-metal enclosures, blowers, and instrument mechanics that shops could fabricate.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="recognition" class="recognition">
+      <div class="section-head">
+        <p class="kicker">05 — Patent &amp; recognition</p>
+        <h2>A granted patent, and the competitions that funded the prototypes.</h2>
+      </div>
+      <div class="recog-layout">
+        <article class="patent">
+          <img src="assets/patent.jpg" alt="Indian patent certificate number 427494 for an automated industrial air pollution control system" />
+          <div>
+            <p class="eyebrow">Granted · India</p>
+            <h3>Automated Industrial Air Pollution Control System</h3>
+            <p>Patent No. 427494, co-inventor, filed through Generation One Saver. Twenty-year term from 4 September 2022. The certificate names the zig-zag water-chamber system.</p>
+          </div>
+        </article>
+        <ul class="awards">
+          <li>
+            <img src="assets/award-carbon.png" alt="Carbon Zero Challenge grant note from IIT Madras" />
+            <div>
+              <strong>Carbon Zero Challenge 5.0</strong>
+              <span>IIT Madras · grant awardee</span>
+            </div>
+          </li>
+          <li>
+            <img src="assets/award-iicdc.png" alt="IICDC coverage of the college prototype team" />
+            <div>
+              <strong>Texas Instruments IICDC 2019</strong>
+              <span>Finalist · startup package</span>
+            </div>
+          </li>
+          <li>
+            <img src="assets/award-delta.jpg" alt="Delta Cup 2020 recognition in China" />
+            <div>
+              <strong>International Delta Cup 2020</strong>
+              <span>Runner-up · Delta, China</span>
+            </div>
+          </li>
+          <li>
+            <img src="assets/award-smart.png" alt="Smart Maker Fest 2020 runner-up graphic" />
+            <div>
+              <strong>Smart Maker Fest</strong>
+              <span>Runner-up · USA &amp; Canada</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <p class="grant-line">Prototype funding also includes MeitY GENESIS EIR 2025, NIDHI PRAYAS, and the IVP programme — together, INR 2.4 million in government innovation grants.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <div>
+        <p class="kicker">06 — Contact</p>
+        <h2>If the machine needs a designer who can also teach it to look and adjust, write to me.</h2>
+        <p>R&amp;D, SolidWorks product design, intelligent environmental systems, and instrument development.</p>
+      </div>
+      <address>
+        <a href="mailto:razinrazin57@gmail.com">razinrazin57@gmail.com</a>
+        <a href="tel:+971503903358">+971 50 390 3358</a>
+        <a href="https://www.linkedin.com/in/mohamed-razeen-r/" target="_blank" rel="noopener">linkedin.com/in/mohamed-razeen-r</a>
+        <span>Abu Dhabi, United Arab Emirates</span>
+      </address>
+    </section>
+  </main>
 
   <footer>
-    <div class="container">
-      © 2026 Mohamed Razeen Ramlan · Mechatronics & CleanTech R&D · Abu Dhabi, UAE
-    </div>
+    <span>Mohamed Razeen Ramlan</span>
+    <span>R&amp;D Engineer · SolidWorks · AI &amp; Machine Learning</span>
   </footer>
 
+  <dialog class="lightbox" id="lightbox">
+    <form method="dialog">
+      <button class="close" type="submit" aria-label="Close image">Close</button>
+    </form>
+    <img alt="" />
+  </dialog>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
